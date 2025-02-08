@@ -29,6 +29,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+.movie-section {
+    margin: 20px 0;
+}
+
+.movie-section h2 {
+    margin-left: 20px;
+}
+
 .movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -46,6 +54,20 @@ nav ul li a {
 .movie-card img {
     max-width: 100%;
     border-radius: 8px;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+}
+
+.metadata {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.metadata span {
+    font-size: 14px;
 }
 
 footer {
